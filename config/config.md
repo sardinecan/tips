@@ -117,6 +117,9 @@ Require all granted
   * pour prendre un peu d'avance, nous en profiterons pour décommenter les modules suivants :
     * `LoadModule php5_module libexec/apache2/libphp5.so`
     * `Include /private/etc/apache2/extra/httpd-userdir.conf`
+    * `LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so`
+    * `Include /private/etc/apache2/extra/httpd-vhosts.conf`
+    * changer `#ServerName www.example.com:80` en `ServerName localhost`
     * changer `AllowOverride None` en `AllowOverride All`
 * sauvegarder.
 
@@ -161,3 +164,51 @@ dans le terminal rentrer ces deux commandes :
 * dans l'onglet `type d'authentification`, renseigner les champs **root** et **mot de passe** (mot de passe MySQL), puis `appliquer`
 * changer la langue de configuration si besoin, puis sauvegarder.
 * Copier maintenant le fichier `phpmyadmin/config/config.inc.php` dans le dossier `phpmyadmin/` et supprimer le dossier `config`.
+
+##### Configuration des vhost
+
+###### Édition du httpd-vhosts.conf
+* ouvrir `/etc/apache2/extra/httpd-vhosts.conf`
+* au tout début du document ajouter
+```xml
+#Enable PHP interpretation within HTML files
+<FilesMatch ".+\.html$">
+  SetHandler application/x-httpd-php
+</FilesMatch>
+```
+* puis ajouter devant les exemples (remplacer username !) :
+```xml
+<VirtualHost *:80>
+    ServerName localhost
+    DocumentRoot "/Users/username/Sites/"
+    <Directory "/Users/username/Sites/">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+* À la fin du document ajouter les vhost nécessaires, exemple :
+```xml
+<VirtualHost *:80>
+  DocumentRoot "/Users/username/Sites/lyon/"
+  ServerName lyon.com
+  ServerAlias www.lyon.com
+  ErrorLog "/private/var/log/apache2/foo-error_log"
+  CustomLog "/private/var/log/apache2/foo-access_log" common
+</VirtualHost>
+```
+* rentrer la commande `sudo apachectl -S`, les deux premières lignes doivent correspondre à  : `VirtualHost configuration:
+*:80                   localhost (/private/etc/apache2/extra/httpd-vhosts.conf:2`
+* relancer Apache : `sudo apachectl restart`
+
+###### Configurer le ficher host
+* `sudo atom /etc/hosts`
+* ajouter à la toutes fin du document les adresses host ex :
+```xml
+#Local sites
+127.0.0.1 lyon.com www.lyon.com
+```
+* relancer Apache et penser à vider le cache du navigateur.
