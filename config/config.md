@@ -38,6 +38,9 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [pigments](https://atom.io/packages/pigments)
 * [todo-show](https://atom.io/packages/todo-show)
 
+##### Installation dans le shell
+* Menu : `Atom/Install Shell Commands`
+
 ##### Interface
 TODO
 
