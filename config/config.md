@@ -15,7 +15,7 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * puis : `source .bash_profile`
 
 ### Modification du hostName
-* Dans le terminal : `sudo scutil –-set HostName nouveauHostName`
+* Dans le terminal : `sudo scutil --set HostName nouveauHostName`
 
 ## Logiciels
 ### Navigateurs
@@ -49,7 +49,7 @@ TODO
 * dans préférences/Éditeur/vérification orthographique :
 `langue par défaut : français` ; décocher `utiliser les attributs lang et xml:lang` ; cocher dans vérification orthographique XML dans : `commentaires, texte, CDATA` ; dans options, cocher : tout cocher sauf `ignorer les doublons` et `ignorer les mots contenant un mélange majuscules/miniscules` ;
 * dans préférences/Éditeur/formatage : décocher `Smart Enter` ; cocher : `indenter avec entrée, formater et indenter le document à l'ouverture, Saut de ligne réel` ; dans le champ `longueur de ligne : 10000`.
- 
+
 ### Dev
 #### Git
 * Télécharger [git](https://git-scm.com/) ;
