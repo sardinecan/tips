@@ -47,7 +47,6 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * Menu : `Atom/Install Shell Commands`
 
 ##### Interface
-<<<<<<< HEAD
 ###### Passer le dictionnaire en français
 * menu atom/préférence (`cmd ,`)
 * onglet Packages => Installed packages => spell-check => settings
@@ -55,10 +54,8 @@ Créer un symlink à partir de /tips/config/.bash_profile
 
 ######
 
-=======
 ###### Changement de la langue du dictionnaire
 * Menu `Atom/préférences/packages/spell-check/settings`, dans le champ `locales` : `fr-FR`.
->>>>>>> 4b6e6ffd7e2e0b6bb3b85d9f2d20356ac1db72ab
 
 #### Oxygen XML editor
 ##### Interface
