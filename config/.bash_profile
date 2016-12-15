@@ -27,9 +27,15 @@ export PS1;
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+alias github='cd /Volumes/data/Github'
 alias gdp='cd /Volumes/data/Github/gdp'
 alias gdpsources='cd /volumes/data/Github/gdp/sources'
 alias horel='cd /Volumes/data/Github/horel'
+alias condorcet='cd /Volume/data/Github/condorcet'
 alias durival='cd /Volume/data/Github/durival'
+alias ..='cd ..'
+alias ...='cd ../..'
 
+#export PATH=$PATH:/usr/local/mysql/bin
+export PATH="/usr/local/mysql/bin:$PATH"
 export PATH=$PATH:/Volumes/data/Github/TEIC/Stylesheets/bin
