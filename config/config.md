@@ -37,12 +37,23 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [minimap](https://atom.io/packages/minimap)
 * [pigments](https://atom.io/packages/pigments)
 * [todo-show](https://atom.io/packages/todo-show)
+* [auto-Update-Packages](https://atom.io/packages/auto-update-packages)
+* [file-icons](https://atom.io/themes/file-icons)
+* [LaTeX](https://atom.io/packages/latex)
+* [Language-LaTeX](https://atom.io/packages/language-latex)
+* [Git-Plus](https://atom.io/packages/git-plus)
 
 ##### Installation dans le shell
 * Menu : `Atom/Install Shell Commands`
 
 ##### Interface
-TODO
+###### Passer le dictionnaire en français
+* menu atom/préférence (`cmd ,`)
+* onglet Packages => Installed packages => spell-check => settings
+* dans *local* => `fr-FR`
+
+######
+
 
 #### Oxygen XML editor
 ##### Interface
