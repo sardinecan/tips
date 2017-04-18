@@ -20,7 +20,7 @@ PS1+="\[${white}\] in ";
 PS1+="\[${green}\]\W";
 PS1+="\[${orange}\] \$(parse_git_branch)";
 PS1+="\n";
-PS1+="\[${green}\]=> \[${reset}\]";
+PS1+="\[${green}\]➜ \[${reset}\]";
 
 export PS1;
 
