@@ -30,18 +30,46 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [Sublime-Style-Column-Selection](https://atom.io/packages/Sublime-Style-Column-Selection)
 * [atom-beautify](https://atom.io/packages/atom-beautify)
 * [atom-wrap-in-tag](https://atom.io/packages/atom-wrap-in-tag)
+* [auto-update-packages](https://atom.io/packages/auto-update-packages)
 * [autoclose-html](https://atom.io/packages/autoclose-html)
+* [busy-signal](https://atom.io/packages/busy-signal)
+* [file-icons](https://atom.io/packages/file-icons)
+* [fonts](https://atom.io/packages/fonts)
 * [highlight-selected](https://atom.io/packages/highlight-selected)
+* [intentions](https://atom.io/packages/intentions)
+* [language-latex](https://atom.io/packages/language-latex)
+* [latex](https://atom.io/packages/latex)
+* [linter](https://atom.io/packages/linter)
+* [linter-csslint](https://atom.io/packages/linter-csslint)
+* [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
+* [linter-jshint](https://atom.io/packages/linter-jshint)
+* [linter-php](https://atom.io/packages/linter-php)
+* [linter-spell](https://atom.io/packages/linter-spell)
+* [linter-spell-latex](https://atom.io/packages/linter-spell-latex)
 * [lipsum](https://atom.io/packages/lipsum)
 * [markdown-pdf](https://atom.io/packages/markdown-pdf)
 * [minimap](https://atom.io/packages/minimap)
+* [open-recent](https://atom.io/packages/open-recent)
+* [php-cs-fixer](https://atom.io/packages/php-cs-fixer)
 * [pigments](https://atom.io/packages/pigments)
 * [todo-show](https://atom.io/packages/todo-show)
+* [auto-Update-Packages](https://atom.io/packages/auto-update-packages)
+* [file-icons](https://atom.io/themes/file-icons)
+* [LaTeX](https://atom.io/packages/latex)
+* [Language-LaTeX](https://atom.io/packages/language-latex)
+* [Git-Plus](https://atom.io/packages/git-plus)
 
 ##### Installation dans le shell
 * Menu : `Atom/Install Shell Commands`
 
 ##### Interface
+###### Passer le dictionnaire en français
+* menu atom/préférence (`cmd ,`)
+* onglet Packages => Installed packages => spell-check => settings
+* dans *local* => `fr-FR`
+
+######
+
 ###### Changement de la langue du dictionnaire
 * Menu `Atom/préférences/packages/spell-check/settings`, dans le champ `locales` : `fr-FR`.
 
