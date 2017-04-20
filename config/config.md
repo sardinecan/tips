@@ -33,6 +33,7 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [auto-update-packages](https://atom.io/packages/auto-update-packages)
 * [autoclose-html](https://atom.io/packages/autoclose-html)
 * [busy-signal](https://atom.io/packages/busy-signal)
+* [emmet](https://atom.io/packages/emmet)
 * [file-icons](https://atom.io/packages/file-icons)
 * [fonts](https://atom.io/packages/fonts)
 * [highlight-selected](https://atom.io/packages/highlight-selected)
@@ -59,6 +60,8 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [Language-LaTeX](https://atom.io/packages/language-latex)
 * [Git-Plus](https://atom.io/packages/git-plus)
 
+Pour aller plus vite, rentrer dans le terminal la commande suivante, après avec installer Atom dans le shell et nodejs : `apm install Sublime-Style-Column-Selection ; apm install atom-beautify ; apm install atom-wrap-in-tag ; apm install auto-update-packages ; apm install autoclose-html ; apm install busy-signal ; apm install emmet ; apm install file-icons ; apm install fonts ; apm install highlight-selected ; apm install intentions ; apm install language-latex ; apm install latex ; apm install linter ; apm install linter-csslint ; apm install linter-htmlhint ; apm install linter-jshint ; apm install linter-php ; apm install linter-spell ; apm install linter-spell-latex ; apm install lipsum ; apm install markdown-pdf ; apm install minimap ; apm install open-recent ; apm install php-cs-fixer ; apm install pigments ; apm install todo-show ; apm install auto-Update-Packages ; apm install file-icons ; apm install LaTeX ; apm install Language-LaTeX ; apm install Git-Plus ;`
+
 ##### Installation dans le shell
 * Menu : `Atom/Install Shell Commands`
 
@@ -81,6 +84,12 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * dans préférences/Éditeur/vérification orthographique :
 `langue par défaut : français` ; décocher `utiliser les attributs lang et xml:lang` ; cocher dans vérification orthographique XML dans : `commentaires, texte, CDATA` ; dans options, cocher : tout cocher sauf `ignorer les doublons` et `ignorer les mots contenant un mélange majuscules/miniscules` ;
 * dans préférences/Éditeur/formatage : décocher `Smart Enter` ; cocher : `indenter avec entrée, formater et indenter le document à l'ouverture, Saut de ligne réel` ; dans le champ `longueur de ligne : 10000`.
+
+##### Add-on TEI
+* dans le menu préférences/association de type de document, cliquer sur tout désactiver
+* dans le menu préférences/add-ons, cliquer sur ajouter et entrer l'url suivante : `http://www.tei-c.org/release/oxygen/updateSite.oxygen`, appliquer et cliquer sur OK.
+* dans le menu aide/installer de nouveaux add-ons, cliquer sur le menu déroulant et choisir l'add-on TEI pour son installation. suivre les instructions.
+* dans le menu préférences/association de type de document, vérifier que tout est de nouveau cocher (sauf les anciens modules TEI).
 
 ### Dev
 #### Git
