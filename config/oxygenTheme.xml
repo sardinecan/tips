@@ -15,7 +15,7 @@
 		</entry>
 		<entry>
 			<String>author.foreground-color</String>
-			<String>51,51,51</String>
+			<String>0,0,0</String>
 		</entry>
 		<entry>
 			<String>author.tags.font</String>
@@ -447,7 +447,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.0</String>
-			<String>229,229,229</String>
+			<String>171,178,191</String>
 		</entry>
 		<entry>
 			<String>color.CSS.0.name</String>
@@ -455,7 +455,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.1</String>
-			<String>153,153,153</String>
+			<String>102,223,102</String>
 		</entry>
 		<entry>
 			<String>color.CSS.1.name</String>
@@ -463,7 +463,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.10</String>
-			<String>255,93,93</String>
+			<String>255,255,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.10.name</String>
@@ -479,7 +479,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.12</String>
-			<String>0,137,0</String>
+			<String>209,154,102</String>
 		</entry>
 		<entry>
 			<String>color.CSS.12.name</String>
@@ -487,7 +487,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.13</String>
-			<String>0,137,0</String>
+			<String>209,154,102</String>
 		</entry>
 		<entry>
 			<String>color.CSS.13.name</String>
@@ -503,7 +503,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.15</String>
-			<String>255,197,98</String>
+			<String>255,255,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.15.name</String>
@@ -511,7 +511,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.16</String>
-			<String>229,229,229</String>
+			<String>229,255,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.16.name</String>
@@ -519,7 +519,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.17</String>
-			<String>0,173,0</String>
+			<String>209,154,102</String>
 		</entry>
 		<entry>
 			<String>color.CSS.17.name</String>
@@ -527,7 +527,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.18</String>
-			<String>161,200,227</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.18.name</String>
@@ -535,7 +535,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.19</String>
-			<String>216,55,135</String>
+			<String>221,103,44</String>
 		</entry>
 		<entry>
 			<String>color.CSS.19.name</String>
@@ -543,7 +543,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.2</String>
-			<String>153,153,153</String>
+			<String>102,223,102</String>
 		</entry>
 		<entry>
 			<String>color.CSS.2.name</String>
@@ -551,7 +551,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.20</String>
-			<String>161,200,227</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.20.name</String>
@@ -559,7 +559,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.21</String>
-			<String>233,142,67</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.21.name</String>
@@ -567,7 +567,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.23</String>
-			<String>161,200,227</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.CSS.23.name</String>
@@ -575,7 +575,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.3</String>
-			<String>104,164,103</String>
+			<String>200,174,157</String>
 		</entry>
 		<entry>
 			<String>color.CSS.3.name</String>
@@ -583,7 +583,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.4</String>
-			<String>104,164,103</String>
+			<String>102,204,204</String>
 		</entry>
 		<entry>
 			<String>color.CSS.4.name</String>
@@ -591,7 +591,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.5</String>
-			<String>205,118,217</String>
+			<String>171,178,191</String>
 		</entry>
 		<entry>
 			<String>color.CSS.5.name</String>
@@ -599,7 +599,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.6</String>
-			<String>255,197,98</String>
+			<String>224,108,117</String>
 		</entry>
 		<entry>
 			<String>color.CSS.6.name</String>
@@ -607,7 +607,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.7</String>
-			<String>132,176,255</String>
+			<String>229,192,123</String>
 		</entry>
 		<entry>
 			<String>color.CSS.7.name</String>
@@ -615,7 +615,7 @@
 		</entry>
 		<entry>
 			<String>color.CSS.8</String>
-			<String>255,197,98</String>
+			<String>221,103,44</String>
 		</entry>
 		<entry>
 			<String>color.CSS.8.name</String>
@@ -1326,6 +1326,262 @@
 			<String>Operator</String>
 		</entry>
 		<entry>
+			<String>color.Markdown.0</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.0.name</String>
+			<String>Text</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.1</String>
+			<String>0,0,102</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.1.name</String>
+			<String>Heading1</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.10</String>
+			<String>255,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.10.name</String>
+			<String>Invalid</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.11</String>
+			<String>143,85,54</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.11.name</String>
+			<String>Code_span</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.12</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.12.name</String>
+			<String>Code_block</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.13</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.13.name</String>
+			<String>Code_block_js</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.14</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.14.name</String>
+			<String>Code_block_java</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.15</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.15.name</String>
+			<String>Code_block_css</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.16</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.16.name</String>
+			<String>Code_block_py</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.17</String>
+			<String>0,140,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.17.name</String>
+			<String>Annotation</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.18</String>
+			<String>143,85,54</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.18.name</String>
+			<String>XML_comment</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.19</String>
+			<String>172,65,66</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.19.name</String>
+			<String>Xml_tag</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.2</String>
+			<String>0,0,102</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.2.name</String>
+			<String>Heading2</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.20</String>
+			<String>204,122,5</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.20.name</String>
+			<String>Title</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.22</String>
+			<String>170,117,159</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.22.name</String>
+			<String>Link</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.24</String>
+			<String>0,51,255</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.24.name</String>
+			<String>Link_URL</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.26</String>
+			<String>144,169,89</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.26.name</String>
+			<String>Horizontal_rule</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.27</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.27.name</String>
+			<String>Bold</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.28</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.28.name</String>
+			<String>Italic</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.29</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.29.name</String>
+			<String>Strike</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.3</String>
+			<String>0,0,102</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.3.name</String>
+			<String>Heading3</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.30</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.30.name</String>
+			<String>Bold_italic</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.31</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.31.name</String>
+			<String>Italic_strike</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.32</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.32.name</String>
+			<String>Bold_strike</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.33</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.33.name</String>
+			<String>Bold_italic_strike</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.34</String>
+			<String>100,0,50</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.34.name</String>
+			<String>Table</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.35</String>
+			<String>100,0,50</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.35.name</String>
+			<String>Emoticons</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.4</String>
+			<String>0,0,102</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.4.name</String>
+			<String>Heading4</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.5</String>
+			<String>0,0,102</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.5.name</String>
+			<String>Heading5</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.6</String>
+			<String>0,0,102</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.6.name</String>
+			<String>Heading6</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.7</String>
+			<String>106,159,181</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.7.name</String>
+			<String>List</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.8</String>
+			<String>144,169,89</String>
+		</entry>
+		<entry>
+			<String>color.Markdown.8.name</String>
+			<String>Quote</String>
+		</entry>
+		<entry>
 			<String>color.PHP.0</String>
 			<String>229,229,229</String>
 		</entry>
@@ -1790,6 +2046,30 @@
 			<String>Annotation</String>
 		</entry>
 		<entry>
+			<String>color.RNC.12</String>
+			<String>200,100,0</String>
+		</entry>
+		<entry>
+			<String>color.RNC.12.name</String>
+			<String>Annotation_name</String>
+		</entry>
+		<entry>
+			<String>color.RNC.13</String>
+			<String>204,51,0</String>
+		</entry>
+		<entry>
+			<String>color.RNC.13.name</String>
+			<String>Annotation_string</String>
+		</entry>
+		<entry>
+			<String>color.RNC.14</String>
+			<String>204,51,0</String>
+		</entry>
+		<entry>
+			<String>color.RNC.14.name</String>
+			<String>Annotation_sq_string</String>
+		</entry>
+		<entry>
 			<String>color.RNC.18</String>
 			<String>255,255,255</String>
 		</entry>
@@ -2110,8 +2390,120 @@
 			<String>Text</String>
 		</entry>
 		<entry>
+			<String>color.XHTML.0</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.0.name</String>
+			<String>Text</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.1</String>
+			<String>0,100,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.1.name</String>
+			<String>Comment</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.10</String>
+			<String>255,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.10.name</String>
+			<String>Error</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.11</String>
+			<String>0,140,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.11.name</String>
+			<String>CDATA</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.12</String>
+			<String>0,0,255</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.12.name</String>
+			<String>Embedded_Doctype</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.16</String>
+			<String>139,38,201</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.16.name</String>
+			<String>XML_prolog</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.2</String>
+			<String>0,0,255</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.2.name</String>
+			<String>Doctype</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.3</String>
+			<String>153,51,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.3.name</String>
+			<String>Quoted_Value</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.4</String>
+			<String>153,51,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.4.name</String>
+			<String>Single_quoted_Value</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.5</String>
+			<String>150,150,0</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.5.name</String>
+			<String>Entity</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.6</String>
+			<String>0,0,150</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.6.name</String>
+			<String>Tag</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.7</String>
+			<String>245,132,76</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.7.name</String>
+			<String>Attribute_name</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.8</String>
+			<String>139,38,201</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.8.name</String>
+			<String>Processing_Instruction</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.9</String>
+			<String>255,128,64</String>
+		</entry>
+		<entry>
+			<String>color.XHTML.9.name</String>
+			<String>Equal</String>
+		</entry>
+		<entry>
 			<String>color.XML.0</String>
-			<String>229,229,229</String>
+			<String>171,178,191</String>
 		</entry>
 		<entry>
 			<String>color.XML.0.name</String>
@@ -2127,7 +2519,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.10</String>
-			<String>255,91,91</String>
+			<String>235,255,255</String>
 		</entry>
 		<entry>
 			<String>color.XML.10.name</String>
@@ -2143,7 +2535,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.12</String>
-			<String>208,226,244</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.XML.12.name</String>
@@ -2159,7 +2551,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.2</String>
-			<String>208,226,244</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.XML.2.name</String>
@@ -2167,7 +2559,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.3</String>
-			<String>224,106,83</String>
+			<String>200,174,157</String>
 		</entry>
 		<entry>
 			<String>color.XML.3.name</String>
@@ -2183,7 +2575,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.5</String>
-			<String>193,193,0</String>
+			<String>255,255,255</String>
 		</entry>
 		<entry>
 			<String>color.XML.5.name</String>
@@ -2191,7 +2583,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.6</String>
-			<String>95,200,253</String>
+			<String>224,108,117</String>
 		</entry>
 		<entry>
 			<String>color.XML.6.name</String>
@@ -2199,7 +2591,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.7</String>
-			<String>255,141,84</String>
+			<String>229,192,123</String>
 		</entry>
 		<entry>
 			<String>color.XML.7.name</String>
@@ -2207,7 +2599,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.8</String>
-			<String>211,140,255</String>
+			<String>190,80,70</String>
 		</entry>
 		<entry>
 			<String>color.XML.8.name</String>
@@ -2215,7 +2607,7 @@
 		</entry>
 		<entry>
 			<String>color.XML.9</String>
-			<String>255,128,64</String>
+			<String>235,235,255</String>
 		</entry>
 		<entry>
 			<String>color.XML.9.name</String>
@@ -2454,8 +2846,236 @@
 			<String>CDATA</String>
 		</entry>
 		<entry>
-			<String>color.content.highlight</String>
-			<String>255,255,0</String>
+			<String>color.XQuery/XPath.0</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.0.name</String>
+			<String>Text</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.1</String>
+			<String>0,102,72</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.1.name</String>
+			<String>Comment</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.10</String>
+			<String>255,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.10.name</String>
+			<String>Invalid</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.11</String>
+			<String>50,50,150</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.11.name</String>
+			<String>Number</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.12</String>
+			<String>120,120,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.12.name</String>
+			<String>Delimiter</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.13</String>
+			<String>139,38,201</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.13.name</String>
+			<String>Pragma</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.14</String>
+			<String>150,50,150</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.14.name</String>
+			<String>Variables</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.15</String>
+			<String>240,130,70</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.15.name</String>
+			<String>Attribute</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.16</String>
+			<String>0,64,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.16.name</String>
+			<String>Functions</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.17</String>
+			<String>240,130,70</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.17.name</String>
+			<String>Xml_attribute</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.18</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.18.name</String>
+			<String>Curly_brackets</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.19</String>
+			<String>120,120,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.19.name</String>
+			<String>Semicolon</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.2</String>
+			<String>139,38,201</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.2.name</String>
+			<String>Processing_Instruction</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.20</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.20.name</String>
+			<String>Brackets</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.21</String>
+			<String>120,120,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.21.name</String>
+			<String>Comma</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.22</String>
+			<String>200,80,40</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.22.name</String>
+			<String>Equal</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.23</String>
+			<String>0,0,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.23.name</String>
+			<String>Square_brackets</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.24</String>
+			<String>50,50,50</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.24.name</String>
+			<String>Attribute_value</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.25</String>
+			<String>120,120,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.25.name</String>
+			<String>Star</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.26</String>
+			<String>0,100,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.26.name</String>
+			<String>Annotation</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.3</String>
+			<String>50,50,150</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.3.name</String>
+			<String>Quoted_Value</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.4</String>
+			<String>50,50,150</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.4.name</String>
+			<String>Single_quoted_Value</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.5</String>
+			<String>0,0,230</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.5.name</String>
+			<String>Xml_tag</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.6</String>
+			<String>0,150,200</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.6.name</String>
+			<String>Keyword</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.7</String>
+			<String>0,150,150</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.7.name</String>
+			<String>Axis</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.8</String>
+			<String>0,255,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.8.name</String>
+			<String>Identifier</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.9</String>
+			<String>120,120,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.9.name</String>
+			<String>Operator</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.97</String>
+			<String>0,102,72</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.97.name</String>
+			<String>XML_comment</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.98</String>
+			<String>0,140,0</String>
+		</entry>
+		<entry>
+			<String>color.XQuery/XPath.98.name</String>
+			<String>CDATA</String>
 		</entry>
 		<entry>
 			<String>colors.for.automatic.assignement</String>
@@ -2502,19 +3122,19 @@
 		</entry>
 		<entry>
 			<String>editor.background-color</String>
-			<String>60,60,60</String>
+			<String>41,44,51</String>
 		</entry>
 		<entry>
 			<String>editor.caret-color</String>
-			<String>255,255,255</String>
+			<String>255,0,0</String>
 		</entry>
 		<entry>
 			<String>editor.font</String>
-			<String>Verdana,0,16</String>
+			<String>Hack,0,18</String>
 		</entry>
 		<entry>
 			<String>editor.line-highlight-color</String>
-			<String>127,127,127,127</String>
+			<String>56,61,71</String>
 		</entry>
 		<entry>
 			<String>editor.print.margin.color</String>
@@ -2522,7 +3142,7 @@
 		</entry>
 		<entry>
 			<String>editor.selection-background-color.v5</String>
-			<String>127,127,127,155</String>
+			<String>96,102,119</String>
 		</entry>
 		<entry>
 			<String>editor.selection-foreground-color</String>
@@ -2530,7 +3150,7 @@
 		</entry>
 		<entry>
 			<String>editor.tab.eol.eof.color</String>
-			<String>204,0,51</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>find.highlight.color</String>
@@ -2538,7 +3158,7 @@
 		</entry>
 		<entry>
 			<String>font.for.author.v12</String>
-			<String>Hiragino Maru Gothic Pro,0,18</String>
+			<String>Open Sans,0,20</String>
 		</entry>
 		<entry>
 			<String>font.for.gui</String>
@@ -2642,7 +3262,7 @@
 		</entry>
 		<entry>
 			<String>line.number.foreground</String>
-			<String>128,128,128</String>
+			<String>96,102,119</String>
 		</entry>
 		<entry>
 			<String>matching.tag.highlight.color</String>
@@ -2899,7 +3519,7 @@
 		</entry>
 		<entry>
 			<String>style.CSS.10</String>
-			<Integer>0</Integer>
+			<Integer>1</Integer>
 		</entry>
 		<entry>
 			<String>style.CSS.11</String>
@@ -2935,7 +3555,7 @@
 		</entry>
 		<entry>
 			<String>style.CSS.19</String>
-			<Integer>0</Integer>
+			<Integer>2</Integer>
 		</entry>
 		<entry>
 			<String>style.CSS.2</String>
@@ -3330,6 +3950,134 @@
 			<Integer>0</Integer>
 		</entry>
 		<entry>
+			<String>style.Markdown.0</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.1</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.10</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.11</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.12</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.13</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.14</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.15</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.16</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.17</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.18</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.19</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.2</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.20</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.22</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.24</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.26</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.27</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.28</String>
+			<Integer>2</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.29</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.3</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.30</String>
+			<Integer>3</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.31</String>
+			<Integer>2</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.32</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.33</String>
+			<Integer>3</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.34</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.35</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.4</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.5</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.6</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.7</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.Markdown.8</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
 			<String>style.PHP.0</String>
 			<Integer>0</Integer>
 		</entry>
@@ -3562,6 +4310,18 @@
 			<Integer>0</Integer>
 		</entry>
 		<entry>
+			<String>style.RNC.12</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.RNC.13</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.RNC.14</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
 			<String>style.RNC.18</String>
 			<Integer>0</Integer>
 		</entry>
@@ -3722,6 +4482,62 @@
 			<Integer>0</Integer>
 		</entry>
 		<entry>
+			<String>style.XHTML.0</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.1</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.10</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.11</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.12</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.16</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.2</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.3</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.4</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.5</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.6</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.7</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.8</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XHTML.9</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
 			<String>style.XML.0</String>
 			<Integer>0</Integer>
 		</entry>
@@ -3731,7 +4547,7 @@
 		</entry>
 		<entry>
 			<String>style.XML.10</String>
-			<Integer>0</Integer>
+			<Integer>1</Integer>
 		</entry>
 		<entry>
 			<String>style.XML.11</String>
@@ -3759,11 +4575,11 @@
 		</entry>
 		<entry>
 			<String>style.XML.5</String>
-			<Integer>0</Integer>
+			<Integer>3</Integer>
 		</entry>
 		<entry>
 			<String>style.XML.6</String>
-			<Integer>1</Integer>
+			<Integer>0</Integer>
 		</entry>
 		<entry>
 			<String>style.XML.7</String>
@@ -3894,12 +4710,124 @@
 			<Integer>0</Integer>
 		</entry>
 		<entry>
-			<String>style.XQUERY-XPATH.99</String>
+			<String>style.XQuery/XPath.0</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.1</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.10</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.11</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.12</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.13</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.14</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.15</String>
+			<Integer>3</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.16</String>
+			<Integer>2</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.17</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.18</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.19</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.2</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.20</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.21</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.22</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.23</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.24</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.25</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.26</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.3</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.4</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.5</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.6</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.7</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.8</String>
+			<Integer>1</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.9</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.97</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>style.XQuery/XPath.98</String>
 			<Integer>0</Integer>
 		</entry>
 		<entry>
 			<String>tag.brackets.color</String>
-			<String>140,197,255</String>
+			<String>255,255,255</String>
 		</entry>
 		<entry>
 			<String>tags.background.color</String>
@@ -3911,11 +4839,11 @@
 		</entry>
 		<entry>
 			<String>ui.background.color</String>
-			<String>85,85,85</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>ui.border.color</String>
-			<String>100,100,100</String>
+			<String>62,66,77</String>
 		</entry>
 		<entry>
 			<String>ui.dark.theme</String>
@@ -3931,7 +4859,7 @@
 		</entry>
 		<entry>
 			<String>ui.inactive.selection.background.color</String>
-			<String>102,102,102</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>ui.link.foreground.color</String>
@@ -3939,7 +4867,7 @@
 		</entry>
 		<entry>
 			<String>ui.menus.toolbars.background.color</String>
-			<String>85,85,85</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>ui.menus.toolbars.selection.background.color</String>
@@ -3947,23 +4875,23 @@
 		</entry>
 		<entry>
 			<String>ui.scrollbars.chevrons.color</String>
-			<String>85,85,85</String>
+			<String>62,66,77</String>
 		</entry>
 		<entry>
 			<String>ui.selection.background.color</String>
-			<String>55,55,55</String>
+			<String>62,66,77</String>
 		</entry>
 		<entry>
 			<String>ui.selection.foreground.color</String>
-			<String>255,255,255</String>
+			<String>239,239,239</String>
 		</entry>
 		<entry>
 			<String>ui.separator.color</String>
-			<String>55,55,55</String>
+			<String>62,66,77</String>
 		</entry>
 		<entry>
 			<String>ui.status.panel.background.color</String>
-			<String>85,85,85</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>ui.status.panel.foreground.color</String>
@@ -3971,19 +4899,19 @@
 		</entry>
 		<entry>
 			<String>ui.text.background.color</String>
-			<String>80,80,80</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>ui.text.components.border.color</String>
-			<String>102,102,102</String>
+			<String>62,66,77</String>
 		</entry>
 		<entry>
 			<String>ui.view.tabs.border.color</String>
-			<String>115,115,115</String>
+			<String>62,66,77</String>
 		</entry>
 		<entry>
 			<String>ui.view.titles.background.color</String>
-			<String>85,85,85</String>
+			<String>38,39,44</String>
 		</entry>
 		<entry>
 			<String>ui.view.titles.font</String>
