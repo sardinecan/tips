@@ -45,6 +45,7 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
 * [linter-jshint](https://atom.io/packages/linter-jshint)
 * [linter-php](https://atom.io/packages/linter-php)
+* [linter-ui-default](https://github.com/steelbrain/linter-ui-default)
 * [linter-spell](https://atom.io/packages/linter-spell)
 * [linter-spell-latex](https://atom.io/packages/linter-spell-latex)
 * [lipsum](https://atom.io/packages/lipsum)
@@ -60,7 +61,7 @@ Créer un symlink à partir de /tips/config/.bash_profile
 * [Language-LaTeX](https://atom.io/packages/language-latex)
 * [Git-Plus](https://atom.io/packages/git-plus)
 
-Pour aller plus vite, rentrer dans le terminal la commande suivante, après avec installer Atom dans le shell et nodejs : `apm install Sublime-Style-Column-Selection ; apm install atom-beautify ; apm install atom-wrap-in-tag ; apm install auto-update-packages ; apm install autoclose-html ; apm install busy-signal ; apm install emmet ; apm install file-icons ; apm install fonts ; apm install highlight-selected ; apm install intentions ; apm install language-latex ; apm install latex ; apm install linter ; apm install linter-csslint ; apm install linter-htmlhint ; apm install linter-jshint ; apm install linter-php ; apm install linter-spell ; apm install linter-spell-latex ; apm install lipsum ; apm install markdown-pdf ; apm install minimap ; apm install open-recent ; apm install php-cs-fixer ; apm install pigments ; apm install todo-show ; apm install auto-Update-Packages ; apm install file-icons ; apm install LaTeX ; apm install Language-LaTeX ; apm install Git-Plus ;`
+Pour aller plus vite, rentrer dans le terminal la commande suivante, après avec installer Atom dans le shell et nodejs : `apm install Sublime-Style-Column-Selection ; apm install atom-beautify ; apm install atom-wrap-in-tag ; apm install auto-update-packages ; apm install autoclose-html ; apm install busy-signal ; apm install emmet ; apm install file-icons ; apm install fonts ; apm install highlight-selected ; apm install intentions ; apm install language-latex ; apm install latex ; apm install linter ; apm install linter-csslint ; apm install linter-htmlhint ; apm install linter-jshint ; apm install linter-php ; apm install linter-ui-default ; apm install linter-spell ; apm install linter-spell-latex ; apm install lipsum ; apm install markdown-pdf ; apm install minimap ; apm install open-recent ; apm install php-cs-fixer ; apm install pigments ; apm install todo-show ; apm install auto-Update-Packages ; apm install file-icons ; apm install LaTeX ; apm install Language-LaTeX ; apm install Git-Plus ;`
 
 ##### Installation dans le shell
 * Menu : `Atom/Install Shell Commands`
