@@ -98,6 +98,7 @@ Pour aller plus vite, rentrer dans le terminal la commande suivante, après avec
 * puis : `git config --global user.email adresse@mail` ;
 * pour configurer l'éditeur de texte par défaut : `git config --global core.editor atom` ;
 * pour choisir l'outil de différence (en cas de conflit) : `git config --global merge.tool vimdiff`
+* **Pour aller plus vite** : copier le fichier `.gitconfig` à la racine et remplacer les champs `name` et `email`
 
 #### Node.js
 * Télécharger [Node.js](https://nodejs.org/en/)
