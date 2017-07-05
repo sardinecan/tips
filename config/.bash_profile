@@ -27,15 +27,19 @@ export PS1;
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-alias github='cd /Volumes/data/Github'
-alias gdp='cd /Volumes/data/Github/gdp'
-alias gdpsources='cd /volumes/data/Github/gdp/sources'
-alias horel='cd /Volumes/data/Github/horel'
-alias condorcet='cd /Volume/data/Github/condorcet'
-alias durival='cd /Volume/data/Github/durival'
+alias github='cd /Volumes/Data/github'
+alias gdp='cd /Volumes/Data/github/gdp'
+alias gdpsources='cd /Volumes/Data/github/gdp/sources'
+alias horel='cd /Volumes/Data/github/horel'
+alias durival='cd /Volumes/Data/github/durival'
+alias tips='cd /Volumes/Data/github/tips'
+alias bitbucket='cd /Volumes/Data/bitbucket'
+alias lettrescondorcet='cd /Volumes/Data/bitbucket/lettresCondorcet'
+alias plumitifscondorcet='cd /Volumes/Data/bitbucket/plumitifsCondorcet'
 alias ..='cd ..'
 alias ...='cd ../..'
 
 #export PATH=$PATH:/usr/local/mysql/bin
 export PATH="/usr/local/mysql/bin:$PATH"
-export PATH=$PATH:/Volumes/data/Github/TEIC/Stylesheets/bin
+export PATH=$PATH:/Volumes/Data/Github/TEIC/Stylesheets/bin
+export PATH=$PATH:/Volumes/Data/basex/bin

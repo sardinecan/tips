@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xml:lang="fr">
+  <head>
+    <title>iiif Gallica</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <form action="iiif.php" method="post">
+      <label>url Gallica</label>
+      <input type="text" name="url" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
