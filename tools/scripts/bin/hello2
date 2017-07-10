@@ -1,0 +1,5 @@
+#!/bin/bash
+# My first script
+
+echo "Hello World ! 2"
+echo "$1"

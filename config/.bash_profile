@@ -41,5 +41,7 @@ alias ...='cd ../..'
 
 #export PATH=$PATH:/usr/local/mysql/bin
 export PATH="/usr/local/mysql/bin:$PATH"
-export PATH=$PATH:/Volumes/Data/Github/TEIC/Stylesheets/bin
+export PATH=$PATH:/Volumes/Data/github/teic/stylesheets/bi
 export PATH=$PATH:/Volumes/Data/basex/bin
+export PATH=:$PATH:/Volumes/Data/github/tips/tools/scripts/bin
+export PATH=$ANT_HOME/bin:$PATH

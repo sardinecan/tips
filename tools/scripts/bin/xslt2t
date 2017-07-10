@@ -1,0 +1,20 @@
+#!/bin/bash
+# xslt2t
+
+#Author Josselin Morvan
+#Version 0.4
+#Transforme les fichiers ODT d'un dossier, et mis en forme, en fichiers TEI à partir des feuilles de transformation fournies par le TEIC(modfifée)
+#Puis applique une feuille de transformation perso
+
+#odttotei $1 $2
+#java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar $2 /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/teiToTei.xsl -o:$2
+#for f in *.xls ; do xls2csv "$f" "${f%.xls}.csv" ; done
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
+
+for o in *.odt ; do odttotei "$o" "${o%}.xml" ; done
+echo "${green}ODT TO TEI OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/teiToTei.xsl -o:"${t%}" ; done
+echo "${green}TEI TO TEI OK${reset}"
