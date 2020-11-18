@@ -7,7 +7,7 @@
 #Puis applique une feuille de transformation perso
 
 #odttotei $1 $2
-#java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar $2 /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/teiToTei.xsl -o:$2
+#java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar $2 /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/teiToTei.xsl -o:$2
 #for f in *.xls ; do xls2csv "$f" "${f%.xls}.csv" ; done
 
 red=`tput setaf 1`
@@ -15,31 +15,40 @@ green=`tput setaf 2`
 reset=`tput sgr0`
 
 for o in *.odt ; do odttotei "$o" "${o%}.xml" ; done
+##for o in *.docx ; do docxtotei "$o" "${o%}.xml" ; done
 echo "${green}ODT TO TEI OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/teiToTei.xsl -o:"${t%}" ; done
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/teiToTei.xsl -o:"${t%}" ; done
+echo "${green}TEI TO TEI OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/teiToTei2.xsl -o:"${t%}" ; done
 echo "${green}TEI TO TEI OK${reset}"
 
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexDel.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI2 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexAdd.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI3 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexPb.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI4 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexPb2.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI5 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexPb3.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI6 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexUnclear.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI7 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexGap.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI8 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexGap2.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI9 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexSicCor.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI10 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexUnclUncl.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI11 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexSupplied.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI12 OK${reset}"
-for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/Data/bitbucket/lettresCondorcet/lettressources/xsl/tools/regex/regexCor.xsl -o:"${t%}" ; done
-echo "${green}TEI TO TEI13 OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/StopItalic.xsl -o:"${t%}" ; done
+echo "${green}Ita OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexQ.xsl -o:"${t%}" ; done
+echo "${green}Q OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexDel.xsl -o:"${t%}" ; done
+echo "${green}DEL OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexAdd.xsl -o:"${t%}" ; done
+echo "${green}ADD OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexPb.xsl -o:"${t%}" ; done
+echo "${green}PB OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexPb2.xsl -o:"${t%}" ; done
+echo "${green}PB 2 OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexPb3.xsl -o:"${t%}" ; done
+echo "${green}PB 3 OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexUnclear.xsl -o:"${t%}" ; done
+echo "${green}Unclear OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexGap.xsl -o:"${t%}" ; done
+echo "${green}GAP OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexGap2.xsl -o:"${t%}" ; done
+echo "${green}GAP 2 OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexSic.xsl -o:"${t%}" ; done
+echo "${green}SIC OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexSicCor.xsl -o:"${t%}" ; done
+echo "${green}SIC CORR OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexUnclUncl.xsl -o:"${t%}" ; done
+echo "${green}Unclear Unclear OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexSupplied.xsl -o:"${t%}" ; done
+echo "${green}Supplied OK${reset}"
+for t in *.xml ; do java -jar /Volumes/Data/github/teic/stylesheets/lib/saxon9he.jar "$t" /Volumes/data/github/condorcet/InventaireCondorcet-lettres/xsl/tools/regex/regexCor.xsl -o:"${t%}" ; done
+echo "${green}CORR OK${reset}"

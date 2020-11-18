@@ -45,3 +45,4 @@ export PATH=$PATH:/Volumes/Data/github/teic/stylesheets/bin
 export PATH=$PATH:/Volumes/Data/basex/bin
 export PATH=:$PATH:/Volumes/Data/github/tips/tools/scripts/bin
 export PATH=$ANT_HOME/bin:$PATH
+export PATH=/Users/josselinmorvan/Downloads/apache-ant-1.10.5/bin:$PATH

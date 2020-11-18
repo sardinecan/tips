@@ -1,14 +1,53 @@
 @import "tei.css";
 @import "links.css";
 
-/* High contrast */
-@import "high-contrast.css";
+/* Dark theme */
+/*@import "dark-theme.css";*/
+/*@import "page.css";*/
+
+/* Web Author adjustments */
+@import "webauthor.css";
 
 @namespace xml "http://www.w3.org/XML/1998/namespace";
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------
 ----- Oxygen modifications to the TEI css available at  http://tei.svn.sourceforge.net/viewvc/tei/trunk/TEICSS/  ------
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* perso @sardinecan */
+    /* A gray background */
+    oxy|document {
+      background-color:#fbfbfb;
+    }
+    
+    /* The white page.*/
+    :root{      
+      /* White page */
+      border: 1px solid #c6c6c6;
+      background-color:white;
+      
+      /* Centered*/
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.25in;
+      margin-bottom: 0.25in;
+      
+      /* Letter */
+      width: 80%; 
+      min-height:10cm; /*27.94cm; would be the letter, but a smaller size avoids large caret jumps*/
+      
+    }
+    
+    /* Padding inside the page. */
+    :root {
+          padding-top:2em;
+          padding-right:1em;
+          padding-left:2em;
+          padding-bottom:5em;
+    }
+
+
 TEI, TEI\.2 {
     display:block;
     margin-top : 0.5em ;
@@ -31,6 +70,11 @@ body > div > div > div > div > head{
     border-bottom:1px solid #004477;
 }
 
+front > div > head {
+    font-weight:700;
+    color:#004477;
+}
+
 head {
     display:block;
 }
@@ -44,10 +88,7 @@ div0 {
 
 quote {
   display: block;
-  margin-left: 2em;
-  margin-right: 2em;
-  background-color:#5c6370;
-  color:#ebebff;
+  margin-left: 1em;
 }
 
 text {
@@ -60,13 +101,12 @@ body > div > div,
 body > div > div > div,
 body > div > div > div > div{
     margin-bottom:0.2em;
-    line-height:140%;
 }
 
 cell[role='label'],
 row[role='label']{
    color: inherit;
-   background-color: #CCEEFF;
+   background-color: #f4fbff;
 }
 
 table {
@@ -125,8 +165,29 @@ gap {
     content: "[...]";
     font-style: italic;
 }
+@media oxygen AND (platform:"eclipse") {
+  gap {
+    font-style: normal;
+  }
+}
 gap:after {
     content: "";
+}
+/*EXM-34326 Show all elements hidden by the base CSS*/
+anchor, catRef, divGen, index, interp, interpGrp, milestone {
+   display: -oxy-morph;
+}
+
+pb {
+  display: -oxy-morph;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+    
+pb:after {
+  content: "";
 }
 
 /*EXM-32751 Try to add arabic orientation based on xml:lang*/
@@ -138,19 +199,134 @@ gap:after {
     direction:rtl;
 }
 
-/* personnalisation */
+/* Facsimile with zones*/
 
-pb {
-    display:-oxy-morph;
+surface {
+    counter-reset:areas; 
+}
+
+zone {
+    display: none;
+    width:100%;
+    margin-top : 0.5em ;
+    margin-right : 0 ;
+    margin-left : 0 ;
+    margin-bottom : 0.5em ;
+}
+
+surface:-oxy-visible-imagemap-area zone{
+    display: block;
+}
+
+/*
+ * Support for expanding and collapsing the area elements.
+ */
+@media oxygen and (platform:eclipse),
+       oxygen and (platform:standalone) {
+    surface > graphic:after(1),
+    facsimile > graphic:after(1) {
+        display:inline;
+        content:"\a" oxy_button(actionID, 'edit.image.map');
+        text-align:left;
+    }
+}
+@media oxygen and (platform:webapp) {
+    surface > graphic:after(1),
+    facsimile > graphic:after(1) {
+        display:inline;
+        content:"\a" ;
+        text-align:left;
+    }
+}
+       
+surface > graphic:after(2){ 
+    display:inline;
+        
+    content:oxy_button(
+        actionID, 'imagemap.expand.area',          
+         showText, true, 
+        showIcon, false, 
+        enableInReadOnlyContext, true);
+        
+    text-align:left;
+    font-family: sansserif, verdana, helvetica;
+    font-size: 0.75em;
+    padding-bottom: 0.2em;
+}
+
+surface:-oxy-visible-imagemap-area > graphic:after(2){
+    display:inline;
+    content:oxy_button(
+       actionID, 'imagemap.collapse.area',          
+         showText, true, 
+        showIcon, false, 
+        enableInReadOnlyContext, true);		
+}
+
+zone:before(5){
+    counter-increment:areas;
+    content: " " counter(areas) " ";
     font-weight:bold;
-    margin-bottom:1em;
-    margin-top:1em;
+    width:5%;
+    border-radius:1em;
+    text-align:center;
+    background-color:blue;
+    color:white;
+    padding:0.1em;
+    margin-left:0.1em;
+    margin-right:0.2em;
+    display:inline-block;
 }
 
-pb:after{
-    content:"";
+zone[xml|id]:before(3){
+    font-weight:bold;
+    content: oxy_textfield(
+                tooltip, 'The xml:id of the zone',
+                edit, '@xml:id',
+                width, 20%)!important;
+    display:inline-block;
+    margin-left:0.2em;
+    width:20%;
 }
 
-fw {
-    background-color:red;
+zone[ulx]:before(2){
+    content: oxy_label(text, " Rectangle", width, 15%, color, inherit)
+
+        oxy_textfield(
+                tooltip, 'Upper-left X coordinate',
+                edit, '@ulx',
+                width, 10%)
+                oxy_label(text, ", ", width, 5%, color, inherit)
+        oxy_textfield(
+                tooltip, 'Upper-left Y coordinate',
+                edit, '@uly',
+                width, 10%)
+                oxy_label(text, ", ", width, 5%, color, inherit)
+        oxy_textfield(
+                tooltip, 'Lower-right X coordinate',
+                edit, '@lrx',
+                width, 10%)
+                oxy_label(text, ", ", width, 5%, color, inherit)
+        oxy_textfield(
+                tooltip, 'Lower-right Y coordinate',
+                edit, '@lry',
+                width, 10%);
+    width:70%;
 }
+
+zone[points]:before(2){
+    content: oxy_label(text, " Polygon", width, 15%, color, inherit) 
+            oxy_textfield(
+                tooltip, 'Polygon points coordinates, in the format x1,y1 x2,y2, ..., xN,yN',
+                edit, '@points',
+                width, 55%);
+    width:70%;
+}
+
+
+@media oxygen-high-contrast-black, oxygen-dark-theme{
+   zone:before(1){
+       color:inherit;
+   }
+}
+
